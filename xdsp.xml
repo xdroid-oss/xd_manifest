@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Device -->
+  <project path="device/xdroid/sepolicy" name="xd_device_xdroid_sepolicy" remote="xdsp"/>
+  <project path="device/qcom/sepolicy" name="xd_device_qcom_sepolicy" remote="xdsp" />
+  <project path="device/qcom/sepolicy_vndr" name="xd_device_qcom_sepolicy_vndr" remote="xdsp" />
+  <project path="device/qcom/sepolicy-legacy" name="xd_device_qcom_sepolicy-legacy" remote="xdsp" />
+  <project path="device/qcom/sepolicy-legacy-um" name="xd_device_qcom_sepolicy-legacy-um" remote="xdsp" />
+
+  <!-- External -->
+  <project path="external/e2fsprogs" name="xd_external_e2fsprogs" remote="xdsp" />
+  <project path="external/gptfdisk" name="xd_external_gptfdisk" remote="xdsp" />
+  <project path="external/exfatprogs" name="xd_external_exfatprogs" remote="xdsp" />
+  <project path="external/mksh" name="xd_external_mksh" remote="xdsp" />
+  <project path="external/ntfs-3g" name="xd_external_ntfs-3g" remote="xdsp" />
+  <project path="external/json-c" name="xd_external_json-c" remote="xdsp" />
+  <project path="external/selinux" name="xd_external_selinux" remote="xdsp" />
+  <project path="external/tinycompress" name="xd_external_tinycompress" remote="xdsp" />
+  <project path="external/themelib" name="xd_external_themelib" remote="xdsp" />
+  <project path="external/colorkt" name="xd_external_colorkt" remote="xdsp" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="xd_frameworks_av" remote="xdsp" />
+  <project path="frameworks/base" name="xd_frameworks_base" remote="xdsp" />
+  <project path="frameworks/native" name="xd_frameworks_native" remote="xdsp" />
+
+  <!-- Hardware -->
+  <project path="hardware/libhardware" name="xd_hardware_libhardware" remote="xdsp" />
+  <project path="hardware/xiaomi" name="xd_hardware_xiaomi" remote="xdsp" />
+
+  <!-- Packages Apps -->
+  <project path="packages/apps/Bluetooth" name="xd_packages_apps_Bluetooth" remote="xdsp" />
+  <project path="packages/apps/Nfc" name="xd_packages_apps_Nfc" remote="xdsp" />
+  <project path="packages/apps/ThemePicker" name="xd_packages_apps_ThemePicker" remote="xdsp" />
+  <project path="packages/apps/Launcher3" name="xd_packages_apps_Launcher3" remote="xdsp" />
+  <project path="packages/apps/Settings" name="xd_packages_apps_Settings" remote="xdsp" />
+  <project path="packages/apps/WallpaperPicker2" name="xd_packages_apps_WallpaperPicker2" remote="xdsp" />
+
+  <!-- Packages Modules -->
+  <project path="packages/modules/adb" name="xd_packages_modules_adb" remote="xdsp" />
+  <project path="packages/modules/Connectivity" name="xd_packages_modules_Connectivity" remote="xdsp" />
+
+  <!-- Root -->
+  <project path="build/make" name="xd_build" remote="xdsp" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="xd_build_soong" remote="xdsp" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Vendor -->
+  <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="xdsp"/>
+  <project path="vendor/xdroidui" name="xd_vendor_xdroidui" remote="xdsp"/>
+
+</manifest>

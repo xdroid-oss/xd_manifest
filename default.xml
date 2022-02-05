@@ -2,11 +2,30 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
+  
   <default revision="refs/tags/android-12.0.0_r27"
            remote="aosp"
-           sync-j="4" />
+           sync-j="4"
+           sync-c="true"
+           sync-f="true" />
+
+  <remote  name="xdsp"
+           fetch="https://github.com/xdsp-prjkt"
+           revision="twelve" />
+
+  <remote  name="xdsp-gitlab"
+           fetch="https://gitlab.com/xdsp-prjkt"
+           revision="twelve" />
+
+  <remote  name="gitlab"
+           revision="twelve"
+           fetch="https://gitlab.com/" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
 
   <superproject name="platform/superproject" remote="aosp" revision="android-12.0.0_r27" />
   <contactinfo bugurl="go/repo-bug" />
@@ -1102,5 +1121,9 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <include name="obsolete.xml" />
+  <include name="xdsp.xml" />
+  <include name="others.xml" />
 
 </manifest>
