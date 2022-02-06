@@ -1,4 +1,4 @@
-![XD](https://github.com/xyz-prjkt/xyz_assets/raw/main/xd_manifest_v3.png)
+![XD](https://github.com/xyz-prjkt/xyz_assets/raw/main/begins.png)
 # xdsp | xdroid AOSP Prjkt
 a android based on AOSP with Minimalist UI Design.
 
