@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Bootable -->
+  <project path="bootable/recovery" name="xd_bootable_recovery" remote="xdsp" />
+
   <!-- Device -->
   <project path="device/xdroid/sepolicy" name="xd_device_xdroid_sepolicy" remote="xdsp" />
   <project path="device/qcom/sepolicy" name="xd_device_qcom_sepolicy" remote="xdsp" />
@@ -18,7 +21,9 @@
   <project path="external/selinux" name="xd_external_selinux" remote="xdsp" />
   <project path="external/tinycompress" name="xd_external_tinycompress" remote="xdsp" />
   <project path="external/themelib" name="xd_external_themelib" remote="xdsp" />
-  <project path="external/colorkt" name="xd_external_colorkt" remote="xdsp" />
+  <project path="external/colorkt" name="xd_external_colorkt" remote="xdsp" /
+  <project path="external/sqlite" name="xd_external_sqlite" remote="xdsp" />
+  <project path="external/tinyxml" name="xd_external_tinyxml" remote="xdsp" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="xd_frameworks_av" remote="xdsp" />
@@ -42,6 +47,8 @@
   <project path="packages/modules/Connectivity" name="xd_packages_modules_Connectivity" remote="xdsp" />
 
   <!-- Root -->
+  <project path="art" name="xd_art" remote="xdsp" />
+  <project path="bionic" name="xd_bionic" remote="xdsp" />
   <project path="build/make" name="xd_build" remote="xdsp" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -55,9 +62,14 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="libcore" name="xd_libcore" remote="xdsp" />
 
   <!-- System -->
   <project path="system/update_engine" name="xd_system_update-engine" remote="xdsp" />
+  <project path="system/bt" name="xd_system_bt" remote="xdsp" />
+  <project path="system/core" name="xd_system_core" remote="xdsp" />
+  <project path="system/sepolicy" name="xd_system_sepolicy" remote="xdsp" />
+  <project path="system/vold" name="xd_system_vold" remote="xdsp" />
   
   <!-- Vendor -->
   <project path="vendor/google/frameworks" name="xd_vendor_google_frameworks" remote="xdsp" />
