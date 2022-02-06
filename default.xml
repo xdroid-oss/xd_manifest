@@ -12,11 +12,11 @@
            sync-f="true" />
 
   <remote  name="xdsp"
-           fetch="https://github.com/xdsp-prjkt"
+           fetch="https://github.com/xdroidsp"
            revision="twelve" />
 
   <remote  name="xdsp-gitlab"
-           fetch="https://gitlab.com/xdsp-prjkt"
+           fetch="https://gitlab.com/xdroidsp"
            revision="twelve" />
 
   <remote  name="gitlab"
