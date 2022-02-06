@@ -101,7 +101,6 @@
   <project path="system/core" name="system_core" remote="radiant" />
   <project path="system/sepolicy" name="system_sepolicy" remote="radiant" />
   <project path="system/vold" name="system_vold" remote="radiant" />
-  <project path="vendor/gms" name="android_vendor_gms" remote="radiant-gitlab" clone-depth="1" />
   <project path="art" name="art" remote="radiant" />
   <project path="bionic" name="bionic" remote="radiant" />
   <project path="libcore" name="libcore" remote="radiant" />

@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- Device -->
-  <project path="device/xdroid/sepolicy" name="xd_device_xdroid_sepolicy" remote="xdsp"/>
+  <project path="device/xdroid/sepolicy" name="xd_device_xdroid_sepolicy" remote="xdsp" />
   <project path="device/qcom/sepolicy" name="xd_device_qcom_sepolicy" remote="xdsp" />
   <project path="device/qcom/sepolicy_vndr" name="xd_device_qcom_sepolicy_vndr" remote="xdsp" />
   <project path="device/qcom/sepolicy-legacy" name="xd_device_qcom_sepolicy-legacy" remote="xdsp" />
@@ -60,7 +60,9 @@
   <project path="system/update_engine" name="xd_system_update-engine" remote="xdsp" />
   
   <!-- Vendor -->
-  <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="xdsp"/>
-  <project path="vendor/xdroidui" name="xd_vendor_xdroidui" remote="xdsp"/>
+  <project path="vendor/google/frameworks" name="xd_vendor_google_frameworks" remote="xdsp" />
+  <project path="vendor/google/gms" name="xd_vendor_google_gms" remote="xdsp-gitlab" clone-depth="1" />
+  <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="xdsp" />
+  <project path="vendor/xdroidui" name="xd_vendor_xdroidui" remote="xdsp" />
 
 </manifest>

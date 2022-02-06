@@ -16,7 +16,7 @@
            revision="twelve" />
 
   <remote  name="xdsp-gitlab"
-           fetch="https://gitlab.com/xdroidsp"
+           fetch="https://gitlab.com/xdroid-org"
            revision="twelve" />
 
   <remote  name="gitlab"
