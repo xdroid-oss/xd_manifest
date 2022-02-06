@@ -56,6 +56,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- System -->
+  <project path="system/update_engine" name="xd_system_update-engine" remote="xdsp" />
+  
   <!-- Vendor -->
   <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="xdsp"/>
   <project path="vendor/xdroidui" name="xd_vendor_xdroidui" remote="xdsp"/>
