@@ -1,5 +1,5 @@
 ![XD](https://github.com/xyz-prjkt/xyz_assets/raw/main/begins.png)
-# xdsp | xdroid AOSP Prjkt
+# xdOSS | xdroid Open Source Software
 a android based on AOSP with Minimalist UI Design.
 
 ### Requirements
