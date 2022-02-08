@@ -13,7 +13,7 @@
 
   <remote  name="xd"
            fetch="https://github.com/xdroid-oss"
-           revision="staging-android-12.0.0_r29" />
+           revision="INA.XD.12.0-r2.android-12.0.0_r29" />
 
   <remote  name="xd-gitlab"
            fetch="https://gitlab.com/xdroid-oss"
