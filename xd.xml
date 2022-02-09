@@ -4,6 +4,9 @@
   <!-- Bootable -->
   <project path="bootable/recovery" name="xd_bootable_recovery" remote="xd" />
 
+  <!-- Common -->
+  <project path="official-maintainer" name="xd_official-maintainer" remote="xd-devices" />
+
   <!-- Device -->
   <project path="device/xdroid/sepolicy" name="xd_device_xdroid_sepolicy" remote="xd" />
   <project path="device/qcom/sepolicy" name="xd_device_qcom_sepolicy" remote="xd" />
