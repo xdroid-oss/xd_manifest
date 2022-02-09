@@ -1,5 +1,5 @@
 ![XD](https://github.com/xyz-prjkt/xyz_assets/raw/main/begins.png)
-# xdOSS | xdroid Open Source Software
+# xdroidOSS | xdroid Open Source Software
 a android based on AOSP with Minimalist UI Design.
 
 ### Requirements
@@ -8,19 +8,33 @@ a android based on AOSP with Minimalist UI Design.
 
 ### Sync our source ###
 ```bash
-        repo init -u https://github.com/xdroid-oss/xd_manifest -b twelve
+repo init -u https://github.com/xdroid-oss/xd_manifest -b twelve
 ```
 ```bash
-        repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
 ### Build our source ###
 ```bash
-        . build/envsetup.sh
-        lunch xdroid_$devicecodename-userdebug
-        make xd -j$(nproc --all)
+. build/envsetup.sh
+lunch xdroid_$devicecodename-userdebug
+make xd -j$(nproc --all)
 ```
 
+### Documentations ###
+#### Settings
+Our settings need to overlayed in device tree, you need to define your device information for our about phone section.
+Reference
+```bash
+https://github.com/xdroid-devices/xd_device_xiaomi_lavender/commit/a94de499460e5a84aeb4cdac0c4e82ce5d88de4f
+```
+#### Bootanimations
+Our build system need to defined about your resolution in device tree .mk e.g xdroid_lavender.mk by adding XDROID_BOOT := 1080.
+We have 3 variant boot resolution ( 720, 1080, 1440 )
+Reference
+```bash
+https://github.com/xdroid-devices/xd_device_xiaomi_lavender/commit/6f2ed2af8ee5a6165ffd231d368b03cbee5e3989
+```
 ### Credits ###
  * [**AOSP**](https://android.googlesource.com)
  * [**CAF**](https://source.codeaurora.org)
