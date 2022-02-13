@@ -31,6 +31,8 @@ https://github.com/xdroid-devices/xd_device_xiaomi_lavender/commit/a94de499460e5
 #### Bootanimations
 Our build system need to defined about your resolution in device tree .mk e.g xdroid_lavender.mk by adding XDROID_BOOT := 1080.
 We have 3 variant boot resolution ( 720, 1080, 1440 )
+
+If u have a problem with boot animation ( some device with low ram have that issue ), u didn't need to define XDROID_BOOT, it will be automatically using legacy of XD bootanimation
 Reference
 ```bash
 https://github.com/xdroid-devices/xd_device_xiaomi_lavender/commit/6f2ed2af8ee5a6165ffd231d368b03cbee5e3989
