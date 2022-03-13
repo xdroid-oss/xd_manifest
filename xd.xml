@@ -80,7 +80,7 @@
   <!--project path="vendor/google/frameworks" name="xd_vendor_google_frameworks" revision="twelve" remote="xd" /-->
   <project path="vendor/google/gms" name="xd_vendor_google_gms" remote="xd-gitlab" clone-depth="1" />
   <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="xd" />
-  <project path="vendor/xdroidui" name="xd_vendor_xdroidui" revision="twelve" remote="xd" />
+  <project path="vendor/xdroidui" name="xd_vendor_xdroidui" remote="xd" />
   <project path="vendor/xdroidui-pref" name="xd_vendor_xdroidui-pref" revision="twelve" remote="xd" />
 
 </manifest>
