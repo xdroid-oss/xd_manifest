@@ -25,7 +25,7 @@
   <project path="external/tinycompress" name="xd_external_tinycompress" remote="xd" />
   <project path="external/sqlite" name="xd_external_sqlite" remote="xd" />
   <project path="external/tinyxml" name="xd_external_tinyxml" revision="twelve" remote="xd" />
-  <!--project path="external/faceunlock" name="xd_external_faceunlock" remote="xd-gitlab" /-->
+  <project path="external/faceunlock" name="xd_external_faceunlock" remote="xd-gitlab" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="xd_frameworks_av" remote="xd" />
@@ -45,7 +45,7 @@
   <project path="packages/apps/ThemePicker" name="xd_packages_apps_ThemePicker" remote="xd" />
   <project path="packages/apps/Settings" name="xd_packages_apps_Settings" remote="xd" />
   <project path="packages/apps/WallpaperPicker2" name="xd_packages_apps_WallpaperPicker2" remote="xd" />
-  <!--project path="packages/apps/FaceUnlockService" name="xd_packages_apps_FaceUnlockService" revision="twelve" remote="xd" /-->
+  <project path="packages/apps/FaceUnlockService" name="xd_packages_apps_FaceUnlockService" remote="xd" />
 
   <!-- Packages Modules -->
   <project path="packages/modules/adb" name="xd_packages_modules_adb" remote="xd" />
@@ -77,7 +77,7 @@
   <project path="system/vold" name="xd_system_vold" remote="xd" />
   
   <!-- Vendor -->
-  <!--project path="vendor/google/frameworks" name="xd_vendor_google_frameworks" revision="twelve" remote="xd" /-->
+  <project path="vendor/google/frameworks" name="xd_vendor_google_frameworks" remote="xd" />
   <project path="vendor/google/gms" name="xd_vendor_google_gms" remote="xd-gitlab" clone-depth="1" />
   <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="xd" />
   <project path="vendor/xdroidui" name="xd_vendor_xdroidui" remote="xd" />
