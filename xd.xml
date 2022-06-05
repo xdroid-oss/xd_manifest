@@ -46,6 +46,7 @@
   <project path="packages/apps/Settings" name="xd_packages_apps_Settings" remote="xd" />
   <project path="packages/apps/WallpaperPicker2" name="xd_packages_apps_WallpaperPicker2" remote="xd" />
   <project path="packages/apps/FaceUnlockService" name="xd_packages_apps_FaceUnlockService" remote="xd" />
+  <project path="packages/apps/GameSpace" name="xd_packages_apps_GameSpace" remote="xd" />
 
   <!-- Packages Modules -->
   <project path="packages/modules/adb" name="xd_packages_modules_adb" remote="xd" />
