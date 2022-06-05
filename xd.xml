@@ -26,6 +26,8 @@
   <project path="external/sqlite" name="xd_external_sqlite" remote="xd" />
   <project path="external/tinyxml" name="xd_external_tinyxml" remote="xd" />
   <project path="external/faceunlock" name="xd_external_faceunlock" remote="xd-gitlab" />
+  <project path="external/themelib" name="xd_external_themelib" remote="xd" />
+  <project path="external/colorkt" name="xd_external_colorkt" remote="xd" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="xd_frameworks_av" remote="xd" />
