@@ -8,11 +8,11 @@
   <project path="official-maintainer" name="xd_official-maintainer" remote="xd-devices" />
 
   <!-- Device -->
-  <project path="device/xdroid/sepolicy" name="xd_device_xdroid_sepolicy" remote="xd" />
-  <project path="device/qcom/sepolicy" name="xd_device_qcom_sepolicy" remote="xd" />
-  <project path="device/qcom/sepolicy_vndr" name="xd_device_qcom_sepolicy_vndr" remote="xd" />
-  <project path="device/qcom/sepolicy-legacy" name="xd_device_qcom_sepolicy-legacy" remote="xd" />
-  <project path="device/qcom/sepolicy-legacy-um" name="xd_device_qcom_sepolicy-legacy-um" remote="xd" />
+  <project path="device/xdroid/sepolicy" name="xd_device_xdroid_sepolicy" revision="twelve" remote="xd" />
+  <project path="device/qcom/sepolicy" name="xd_device_qcom_sepolicy" revision="twelve" remote="xd" />
+  <project path="device/qcom/sepolicy_vndr" name="xd_device_qcom_sepolicy_vndr" revision="twelve" remote="xd" />
+  <project path="device/qcom/sepolicy-legacy" name="xd_device_qcom_sepolicy-legacy" revision="twelve" remote="xd" />
+  <project path="device/qcom/sepolicy-legacy-um" name="xd_device_qcom_sepolicy-legacy-um" revision="twelve" remote="xd" />
 
   <!-- External -->
   <project path="external/e2fsprogs" name="xd_external_e2fsprogs" remote="xd" />
@@ -23,10 +23,8 @@
   <project path="external/json-c" name="xd_external_json-c" remote="xd" />
   <project path="external/selinux" name="xd_external_selinux" remote="xd" />
   <project path="external/tinycompress" name="xd_external_tinycompress" remote="xd" />
-  <project path="external/themelib" name="xd_external_themelib" remote="xd" />
-  <project path="external/colorkt" name="xd_external_colorkt" remote="xd" />
   <project path="external/sqlite" name="xd_external_sqlite" remote="xd" />
-  <project path="external/tinyxml" name="xd_external_tinyxml" remote="xd" />
+  <project path="external/tinyxml" name="xd_external_tinyxml" revision="twelve" remote="xd" />
   <project path="external/faceunlock" name="xd_external_faceunlock" remote="xd-gitlab" />
 
   <!-- Frameworks -->
@@ -39,7 +37,7 @@
   <project path="hardware/qcom-caf/msm8998/display" name="xd_hardware_qcom-caf_display" remote="xd" revision="twelve-msm8998" />
   <project path="hardware/qcom-caf/msm8998/media" name="xd_hardware_qcom-caf_media" remote="xd" revision="twelve-msm8998" />
   <project path="hardware/libhardware" name="xd_hardware_libhardware" remote="xd" />
-  <project path="hardware/xiaomi" name="xd_hardware_xiaomi" remote="xd" />
+  <project path="hardware/xiaomi" name="xd_hardware_xiaomi" revision="twelve" remote="xd" />
 
   <!-- Packages Apps -->
   <project path="packages/apps/Bluetooth" name="xd_packages_apps_Bluetooth" remote="xd" />
@@ -79,10 +77,9 @@
   <project path="system/vold" name="xd_system_vold" remote="xd" />
   
   <!-- Vendor -->
-  <project path="vendor/google/frameworks" name="xd_vendor_google_frameworks" remote="xd" />
   <project path="vendor/google/gms" name="xd_vendor_google_gms" remote="xd-gitlab" clone-depth="1" />
   <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="xd" />
   <project path="vendor/xdroidui" name="xd_vendor_xdroidui" remote="xd" />
-  <project path="vendor/xdroidui-pref" name="xd_vendor_xdroidui-pref" remote="xd" />
+  <project path="vendor/xdroidui-pref" name="xd_vendor_xdroidui-pref" revision="twelve" remote="xd" />
 
 </manifest>
