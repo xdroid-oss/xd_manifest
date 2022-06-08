@@ -1,4 +1,4 @@
-![XD](https://github.com/xyz-prjkt/xyz_assets/raw/main/begins.png)
+![banner](https://raw.githubusercontent.com/xdroid-oss/.github/55654e4a1b88977f60e2116d7cbeed17e87f450b/banner.png)
 # xdroidOSS | xdroid Open Source Software
 a android based on AOSP with Minimalist UI Design.
 
@@ -30,7 +30,7 @@ https://github.com/xdroid-devices/xd_device_xiaomi_lavender/commit/a94de499460e5
 ```
 #### Bootanimations
 Our build system need to defined about your resolution in device tree .mk e.g xdroid_lavender.mk by adding XDROID_BOOT := 1080.
-We have 3 variant boot resolution ( 720, 1080, 1440 )
+We have 4 variant boot resolution ( 420, 720, 1080, 1440 )
 
 If u have a problem with boot animation ( some device with low ram have that issue ), u didn't need to define XDROID_BOOT, it will be automatically using legacy of XD bootanimation
 Reference
@@ -47,3 +47,5 @@ https://github.com/xdroid-devices/xd_device_xiaomi_lavender/commit/6f2ed2af8ee5a
  * [**WeebProject**](https://github.com/WeebProject)
  * [**AOSPMasterVayu**](https://github.com/AOSP-Master-Vayu)
  * [**AEX**](https://github.com/AospExtended)
+
+![footer](https://github.com/xdroid-oss/.github/raw/main/footer.png)
