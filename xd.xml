@@ -55,6 +55,9 @@
   <project path="packages/modules/adb" name="xd_packages_modules_adb" remote="xd" />
   <project path="packages/modules/Connectivity" name="xd_packages_modules_Connectivity" remote="xd" />
 
+  <!-- Prebuilts -->
+  <project path="prebuilts/abi-dumps/vndk" name="xd_prebuilts_abi-dumps_vndk" remote="xd" />
+
   <!-- Root -->
   <project path="art" name="xd_art" remote="xd" />
   <project path="bionic" name="xd_bionic" remote="xd" />
