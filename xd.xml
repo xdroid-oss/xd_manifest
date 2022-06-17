@@ -82,6 +82,7 @@
   <project path="system/core" name="xd_system_core" remote="xd" />
   <project path="system/sepolicy" name="xd_system_sepolicy" remote="xd" />
   <project path="system/vold" name="xd_system_vold" remote="xd" />
+  <project path="system/extras" name="xd_system_extras" remote="xd" />
   
   <!-- Vendor -->
   <project path="vendor/google/gms" name="xd_vendor_google_gms" remote="xd-gitlab" clone-depth="1" />
