@@ -79,6 +79,9 @@
   <project path="vendor/xdroidui" name="xd_vendor_xdroidui" remote="xd" />
   <project path="vendor/xdroidui-pref" name="xd_vendor_xdroidui-pref" remote="xd" />
 
+  <!-- QCOM Vendor -->
+  <project path="vendor/qcom/opensource/vibrator" name="xd_vendor_qcom_opensource_vibrator" remote="xd" />
+
   <!-- [TMP] Tempoary Not Tracked repos
   <project path="packages/modules/adb" name="xd_packages_modules_adb" remote="xd" />
   <project path="packages/modules/Connectivity" name="xd_packages_modules_Connectivity" remote="xd" />
