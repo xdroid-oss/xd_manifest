@@ -20,6 +20,7 @@
   <project path="external/exfatprogs" name="xd_external_exfatprogs" remote="xd" />
   <project path="external/mksh" name="xd_external_mksh" remote="xd" />
   <project path="external/ntfs-3g" name="xd_external_ntfs-3g" remote="xd" />
+  <project path="external/f2fs-tools" name="xd_external_f2fs-tools" remote="xd" />
   <project path="external/json-c" name="xd_external_json-c" remote="xd" />
   <project path="external/selinux" name="xd_external_selinux" remote="xd" />
   <project path="external/tinycompress" name="xd_external_tinycompress" remote="xd" />
