@@ -36,6 +36,7 @@
   <project path="hardware/qcom-caf/msm8998/audio" name="xd_hardware_qcom-caf_audio" remote="xd" revision="twelve-msm8998" />
   <project path="hardware/qcom-caf/msm8998/display" name="xd_hardware_qcom-caf_display" remote="xd" revision="twelve-msm8998" />
   <project path="hardware/qcom-caf/msm8998/media" name="xd_hardware_qcom-caf_media" remote="xd" revision="twelve-msm8998" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="xd_hardware_qcom-caf_sm8150_audio" remote="xd"/>
   <project path="hardware/qcom-caf/wlan" name="xd_hardware_qcom-caf_wlan" remote="xd"/>
   <project path="hardware/libhardware" name="xd_hardware_libhardware" remote="xd" />
   <project path="hardware/xiaomi" name="xd_hardware_xiaomi" remote="xd" />
