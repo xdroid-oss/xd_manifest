@@ -13,8 +13,6 @@
   <remove-project name="device/generic/armv7-a-neon" />
   <remove-project name="device/generic/art" />
   <remove-project name="device/generic/car" />
-  <remove-project name="device/generic/goldfish" />
-  <remove-project name="device/generic/goldfish-opengl" />
   <remove-project name="device/generic/mini-emulator-arm64" />
   <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
   <remove-project name="device/generic/mini-emulator-x86" />
@@ -28,9 +26,6 @@
   <remove-project name="device/google/atv" />
   <remove-project name="device/google/barbet" />
   <remove-project name="device/google/barbet-sepolicy" />
-  <remove-project name="device/google/bonito" />
-  <remove-project name="device/google/bonito-kernel" />
-  <remove-project name="device/google/bonito-sepolicy" />
   <remove-project name="device/google/bramble" />
   <remove-project name="device/google/bramble-sepolicy" />
   <remove-project name="device/google/coral" />
@@ -44,10 +39,6 @@
   <remove-project name="device/google/sunfish" />
   <remove-project name="device/google/sunfish-kernel" />
   <remove-project name="device/google/sunfish-sepolicy" />
-  <remove-project name="device/google/crosshatch" />
-  <remove-project name="device/google/crosshatch-kernel" />
-  <remove-project name="device/google/crosshatch-sepolicy" />
-  <remove-project name="device/google/fuchsia" />
   <remove-project name="device/google/trout" />
   <remove-project name="device/google/vrservices" />
   <remove-project name="device/google_car" />
@@ -67,6 +58,7 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/sqlite" />
@@ -86,12 +78,6 @@
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
 
   <!-- Root -->
   <remove-project name="platform/art" />
@@ -100,7 +86,6 @@
   <remove-project name="platform/bootable/recovery" />
 
   <!-- System -->
-  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
