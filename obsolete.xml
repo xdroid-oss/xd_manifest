@@ -81,15 +81,9 @@
   <remove-project name="platform/hardware/libhardware" />
 
   <!-- Packages Apps -->
-  <remove-project name="platform/packages/apps/Nfc" />
-  <remove-project name="platform/packages/apps/Bluetooth" />
-  <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/Settings" />
-  <remove-project name="platform/packages/apps/WallpaperPicker2" />
 
   <!-- Packages Modules -->
-  <remove-project name="platform/packages/modules/adb" />
-  <remove-project name="platform/packages/modules/Connectivity" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
@@ -114,5 +108,14 @@
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/tools/mkbootimg" />
+
+  <!-- [TMP] Tempoary Not Tracked repos
+  <remove-project name="platform/packages/modules/adb" />
+  <remove-project name="platform/packages/modules/Connectivity" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
+  -->
 
 </manifest>

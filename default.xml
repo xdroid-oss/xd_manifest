@@ -17,15 +17,15 @@
 
   <remote  name="xd"
            fetch="https://github.com/xdroid-oss"
-           revision="twelve" />
+           revision="thirteen" />
 
   <remote  name="xd-gitlab"
            fetch="https://gitlab.com/xdroid-oss"
-           revision="twelve" />
+           revision="thirteen" />
 
   <remote  name="xd-devices"
            fetch="https://github.com/xdroid-devices"
-           revision="twelve" />
+           revision="thirteen" />
 
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
