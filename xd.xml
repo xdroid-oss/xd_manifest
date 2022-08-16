@@ -72,6 +72,7 @@
   <project path="system/sepolicy" name="xd_system_sepolicy" remote="xd" />
   <project path="system/vold" name="xd_system_vold" remote="xd" />
   <project path="system/extras" name="xd_system_extras" remote="xd" />
+  <project path="system/tools/mkbootimg" name="xd_system_tools_mkbootimg" remote="xd" />
   
   <!-- Vendor -->
   <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="xd" />
