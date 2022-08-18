@@ -80,6 +80,7 @@
   <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="xd" />
   <project path="vendor/xdroidui" name="xd_vendor_xdroidui" remote="xd" />
   <project path="vendor/xdroidui-pref" name="xd_vendor_xdroidui-pref" remote="xd" />
+  <project path="vendor/gms" name="xd_vendor_google_gms" remote="xd-gitlab" clone-depth="1" />
 
   <!-- QCOM Vendor -->
   <project path="vendor/qcom/opensource/vibrator" name="xd_vendor_qcom_opensource_vibrator" remote="xd" />
@@ -96,7 +97,6 @@
   <project path="packages/apps/WallpaperPicker2" name="xd_packages_apps_WallpaperPicker2" remote="xd" />
   <project path="packages/apps/FaceUnlockService" name="xd_packages_apps_FaceUnlockService" remote="xd" />
   <project path="packages/apps/GameSpace" name="xd_packages_apps_GameSpace" remote="xd" />
-  <project path="vendor/google/gms" name="xd_vendor_google_gms" remote="xd-gitlab" clone-depth="1" />
   -->
 
 </manifest>
