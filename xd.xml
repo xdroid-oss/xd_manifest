@@ -79,6 +79,8 @@
   <project path="system/vold" name="xd_system_vold" remote="xd" />
   <project path="system/extras" name="xd_system_extras" remote="xd" />
   <project path="system/tools/mkbootimg" name="xd_system_tools_mkbootimg" remote="xd" />
+  <project path="system/logging" name="xd_system_logging" remote="xd" />
+  <project path="system/libhidl" name="xd_system_libhidl" remote="xd" />
   
   <!-- Vendor -->
   <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="xd" />
