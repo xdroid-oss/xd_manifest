@@ -42,6 +42,7 @@
   <project path="packages/apps/Settings" name="xd_packages_apps_Settings" remote="xd" />
   <project path="packages/apps/kebeletEgg" name="xd_packages_apps_kebeletEgg" remote="xd" />
   <project path="packages/apps/Nfc" name="xd_packages_apps_Nfc" remote="xd" />
+  <project path="packages/apps/GameSpace" name="xd_packages_apps_GameSpace" remote="xd" />
 
   <!-- Packages Modules -->
   <project path="packages/modules/Wifi" name="xd_packages_modules_Wifi" remote="xd" />
@@ -69,7 +70,7 @@
   <project path="libcore" name="xd_libcore" remote="xd" />
 
   <!-- System -->
-  <project path="system/update_engine" name="xd_system_update-engine" remote="xd" />
+  <project path="system/update_engine" name="xd_system_update_engine" remote="xd" />
   <project path="system/core" name="xd_system_core" remote="xd" />
   <project path="system/sepolicy" name="xd_system_sepolicy" remote="xd" />
   <project path="system/vold" name="xd_system_vold" remote="xd" />
@@ -97,7 +98,6 @@
   <project path="packages/apps/ThemePicker" name="xd_packages_apps_ThemePicker" remote="xd" />
   <project path="packages/apps/WallpaperPicker2" name="xd_packages_apps_WallpaperPicker2" remote="xd" />
   <project path="packages/apps/FaceUnlockService" name="xd_packages_apps_FaceUnlockService" remote="xd" />
-  <project path="packages/apps/GameSpace" name="xd_packages_apps_GameSpace" remote="xd" />
   -->
 
 </manifest>
