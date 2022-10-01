@@ -47,6 +47,7 @@
   <!-- Packages Modules -->
   <project path="packages/modules/Wifi" name="xd_packages_modules_Wifi" remote="xd" />
   <project path="packages/modules/Permission" name="xd_packages_modules_Permission" remote="xd" />
+  <project path="packages/modules/Connectivity" name="xd_packages_modules_Connectivity" remote="xd" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="xd_prebuilts_abi-dumps_vndk" remote="xd" />
@@ -90,7 +91,6 @@
 
   <!-- [TMP] Tempoary Not Tracked repos
   <project path="packages/modules/adb" name="xd_packages_modules_adb" remote="xd" />
-  <project path="packages/modules/Connectivity" name="xd_packages_modules_Connectivity" remote="xd" />
   <project path="external/faceunlock" name="xd_external_faceunlock" remote="xd-gitlab" />
   <project path="external/themelib" name="xd_external_themelib" remote="xd" />
   <project path="external/colorkt" name="xd_external_colorkt" remote="xd" />

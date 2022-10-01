@@ -78,6 +78,7 @@
   <!-- Packages Modules -->
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/modules/Permission" />
+  <remove-project name="platform/packages/modules/Connectivity" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
@@ -100,7 +101,6 @@
 
   <!-- [TMP] Tempoary Not Tracked repos
   <remove-project name="platform/packages/modules/adb" />
-  <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
