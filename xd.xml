@@ -31,6 +31,7 @@
   <project path="frameworks/av" name="xd_frameworks_av" remote="xd" />
   <project path="frameworks/base" name="xd_frameworks_base" remote="xd" />
   <project path="frameworks/native" name="xd_frameworks_native" remote="xd" />
+  <project path="frameworks/opt/telephony" name="xd_frameworks_opt_telephony" remote="xd" />
 
   <!-- Hardware -->
   <project path="hardware/qcom-caf/wlan" name="xd_hardware_qcom-caf_wlan" remote="xd"/>
@@ -45,6 +46,7 @@
   <project path="packages/apps/GameSpace" name="xd_packages_apps_GameSpace" remote="xd" />
 
   <!-- Packages Modules -->
+  <project path="packages/modules/Bluetooth" name="xd_packages_modules_Bluetooth" remote="xd" />
   <project path="packages/modules/Wifi" name="xd_packages_modules_Wifi" remote="xd" />
   <project path="packages/modules/Permission" name="xd_packages_modules_Permission" remote="xd" />
   <project path="packages/modules/Connectivity" name="xd_packages_modules_Connectivity" remote="xd" />
@@ -94,7 +96,6 @@
   <project path="external/faceunlock" name="xd_external_faceunlock" remote="xd-gitlab" />
   <project path="external/themelib" name="xd_external_themelib" remote="xd" />
   <project path="external/colorkt" name="xd_external_colorkt" remote="xd" />
-  <project path="packages/apps/Bluetooth" name="xd_packages_apps_Bluetooth" remote="xd" />
   <project path="packages/apps/ThemePicker" name="xd_packages_apps_ThemePicker" remote="xd" />
   <project path="packages/apps/WallpaperPicker2" name="xd_packages_apps_WallpaperPicker2" remote="xd" />
   <project path="packages/apps/FaceUnlockService" name="xd_packages_apps_FaceUnlockService" remote="xd" />
