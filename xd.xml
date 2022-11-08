@@ -26,6 +26,7 @@
   <project path="external/tinycompress" name="xd_external_tinycompress" remote="xd" />
   <project path="external/sqlite" name="xd_external_sqlite" remote="xd" />
   <project path="external/tinyxml" name="xd_external_tinyxml" remote="xd" />
+  <project path="external/jemalloc_new" name="xd_external_jemalloc" remote="xd" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="xd_frameworks_av" remote="xd" />
