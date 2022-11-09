@@ -10,6 +10,14 @@
            fetch="https://github.com/LineageOS"
            revision="lineage-19.1" />
 
+  <remote  name="pixelexperience"
+           fetch="https://github.com/PixelExperience"
+           revision="thirteen"  />
+
+  <remote  name="pixelexperience-gitlab"
+           fetch="https://gitlab.pixelexperience.org/android"
+           revision="thirteen" />
+
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="arrow" revision="arrow-13.0-caf" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="arrow" >
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
@@ -57,6 +65,7 @@
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="arrow" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" revision="arrow-12.0" remote="arrow" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="arrow" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="pixelexperience-gitlab" />
   <project path="system/qcom" name="android_system_qcom" remote="arrow" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="arrow" />
@@ -88,5 +97,6 @@
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="PixelExperience/prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" remote="github" revision="twelve" clone-depth="1" />
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
-
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixelexperience" />
+  
 </manifest>
