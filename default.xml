@@ -8,8 +8,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
-
-  <default revision="refs/tags/android-13.0.0_r14"
+  <default revision="refs/tags/android-13.0.0_r15"
            remote="aosp"
            sync-j="4"
            sync-c="true"
@@ -33,7 +32,7 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r14" />
+  <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r15" />
   <contactinfo bugurl="go/repo-bug" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
