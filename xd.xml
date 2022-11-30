@@ -27,6 +27,7 @@
   <project path="external/sqlite" name="xd_external_sqlite" remote="xd" />
   <project path="external/tinyxml" name="xd_external_tinyxml" remote="xd" />
   <project path="external/jemalloc_new" name="xd_external_jemalloc" remote="xd" />
+  <project path="external/zlib-ng" name="xd_external_zlib-ng" remote="xd" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="xd_frameworks_av" remote="xd" />
@@ -83,6 +84,7 @@
   <project path="system/tools/mkbootimg" name="xd_system_tools_mkbootimg" remote="xd" />
   <project path="system/logging" name="xd_system_logging" remote="xd" />
   <project path="system/libhidl" name="xd_system_libhidl" remote="xd" />
+  <project path="system/memory/lmkd" name="xd_system_memory_lmkd" remote="xd" />
   
   <!-- Vendor -->
   <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="xd" />
