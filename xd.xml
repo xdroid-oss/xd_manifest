@@ -44,6 +44,7 @@
   <project path="packages/apps/kebeletEgg" name="xd_packages_apps_kebeletEgg" remote="xd" />
   <project path="packages/apps/Nfc" name="xd_packages_apps_Nfc" remote="xd" />
   <project path="packages/apps/GameSpace" name="xd_packages_apps_GameSpace" remote="xd" />
+  <project path="packages/apps/RepainterServicePriv" name="xd_packages_apps_RepainterServicePriv" remote="xd" />
 
   <!-- Packages Modules -->
   <project path="packages/modules/Bluetooth" name="xd_packages_modules_Bluetooth" remote="xd" />
