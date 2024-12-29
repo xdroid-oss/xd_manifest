@@ -90,6 +90,7 @@
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/zstd" />
   <remove-project name="platform/external/kotlinc" />
   <remove-project name="platform/external/kotlinx.coroutines" />
