@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="xdroidOSS"
+      fetch="https://github.com/xdroid-oss"
+           revision="refs/heads/fifteen" />
+
+  <remote  name="xdroidOSS-Gitlab"
+           fetch="https://gitlab.com/xdroid-oss"
+           revision="refs/heads/fifteen" />
+
+  <project path="bionic" name="xd_bionic" groups="pdk" remote="xdroidOSS" />
+  <project path="bootable/recovery" name="xd_bootable_recovery" groups="pdk" remote="xdroidOSS" />
+  <project path="build/make" name="xd_build_make" groups="pdk,sysui-studio" remote="xdroidOSS">
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="xd_build_soong" groups="pdk,tradefed,sysui-studio" remote="xdroidOSS">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="frameworks/av" name="xd_frameworks_av" groups="pdk" remote="xdroidOSS" />
+  <project path="frameworks/base" name="xd_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="xdroidOSS" />
+  <project path="frameworks/native" name="xd_frameworks_native" groups="pdk" remote="xdroidOSS" />
+  <project path="packages/apps/Settings" name="xd_packages_apps_Settings" groups="pdk-fs" remote="xdroidOSS" />
+  <project path="packages/modules/Connectivity" name="xd_packages_modules_Connectivity" groups="pdk" remote="xdroidOSS" />
+  <project path="packages/services/Telecomm" name="xd_packages_services_Telecomm" remote="xdroidOSS" />
+  <project path="system/core" name="xd_system_core" groups="pdk" remote="xdroidOSS" />
+
+  <project path="device/lineage/sepolicy" name="xd_device_lineage_sepolicy" remote="xdroidOSS" />
+  <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="xdroidOSS" />
+
+</manifest>
