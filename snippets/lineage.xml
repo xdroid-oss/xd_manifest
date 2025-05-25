@@ -7,6 +7,7 @@
            revision="refs/heads/lineage-22.2" />
 
   <!-- AOSP additions -->
+  <project path="build/blueprint" name="LineageOS/android_build_blueprint" groups="pdk,tradefed" remote="LineageOS" />
   <project path="bootable/deprecated-ota" name="LineageOS/android_bootable_deprecated-ota" groups="pdk-cw" remote="LineageOS" />
   <project path="external/avb" name="LineageOS/android_external_avb" groups="pdk" remote="LineageOS" />
   <project path="external/cronet" name="LineageOS/android_external_cronet" groups="pdk" remote="LineageOS" />

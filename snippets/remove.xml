@@ -81,6 +81,7 @@
   <remove-project name="platform/system/core" />
 
   <!-- lineage.xml -->
+  <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/bootable/deprecated-ota" />
   <remove-project name="platform/external/avb" />
   <remove-project name="platform/external/cronet" />
