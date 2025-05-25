@@ -33,5 +33,6 @@
 
   <project path="device/lineage/sepolicy" name="xd_device_lineage_sepolicy" remote="xdroidOSS" />
   <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="xdroidOSS" />
+  <project path="vendor/xdroid-preference" name="xd_vendor_xdroid-preference" remote="xdroidOSS" />
 
 </manifest>
