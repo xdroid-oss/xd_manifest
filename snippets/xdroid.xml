@@ -35,4 +35,8 @@
   <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="xdroidOSS" />
   <project path="vendor/xdroid-preference" name="xd_vendor_xdroid-preference" remote="xdroidOSS" />
 
+  <project path="packages/apps/ParanoidSense" name="xd_packages_apps_ParanoidSense" remote="xdroidOSS" />
+  <project path="packages/apps/TouchGestures" name="xd_packages_apps_TouchGestures" remote="xdroidOSS" />
+  <project path="packages/apps/ColumbusService" name="xd_packages_apps_ColumbusService" remote="xdroidOSS" />
+
 </manifest>
